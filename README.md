@@ -2,9 +2,9 @@
 
 ## Descripción del proyecto
 
-ESPOL Fútbol es una propuesta de sitio web para que la comunidad politécnica encuentre información sobre los partidos de fútbol que se organizan en el campus. Queremos reunir en un solo lugar los horarios, las pruebas de selección de las asociaciones y las indicaciones para participar.
+PoliMatch es una propuesta de sitio web para que la comunidad politécnica encuentre información sobre los partidos de fútbol que se organizan en ESPOL. Nuestro objetivo es reunir información sobre horarios, pruebas de selección y actividades deportivas de las asociaciones.
 
-La idea surge a partir de las entrevistas realizadas sobre las actividades deportivas de la universidad, donde identificamos algunas necesidades relacionadas con la organización de los partidos, la difusión de horarios y la participación de los estudiantes. 
+La idea surge a partir de las entrevistas realizadas, donde identificamos necesidades relacionadas con la organización de los partidos, la difusión de horarios y la participación de los estudiantes.
 
 Con este proyecto queremos reunir esta información en un solo lugar para que sea más fácil conocer los próximos encuentros y las actividades organizadas por las asociaciones.
 
@@ -49,8 +49,7 @@ El diseño está inspirado en la plantilla [TXT de HTML5 UP](https://html5up.net
 
 ## Estado del proyecto
 
-**En planificación y desarrollo académico.** Ya se definieron el problema, el público objetivo, las secciones y la plantilla base. Cualquier actualización son funcionalidades propuestas y **no están implementadas todavía**.
-
+**En desarrollo.** Actualmente estamos trabajando en la primera versión de la página web, tomando como base las necesidades identificadas en las entrevistas y la plantilla TXT de HTML5 UP.
 
 ## Integrantes
 
