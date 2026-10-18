@@ -3193,3 +3193,89 @@ input, select, textarea {
         font-size: 1em;
     }
 }
+
+/* ==========================================
+   POLIMATCH - CALENDARIO DE PARTIDOS
+   ========================================== */
+
+/* Presentación general */
+#calendario {
+    padding: 2em 0;
+}
+
+/* Reducir el espacio debajo del título */
+#calendario > h2.major {
+    margin-bottom: 1.2em;
+}
+
+/* Descripción del calendario */
+#calendario > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+    font-size: 1em;
+}
+
+/* Aviso de partidos de ejemplo */
+#calendario > p strong {
+    color: #0c8051;
+}
+
+/* Organización de las tarjetas */
+#calendario > .row > div {
+    display: flex;
+}
+
+/* Diseño de cada tarjeta */
+#calendario .box.feature {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-top: 5px solid #0c8051;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+#calendario .box.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(8, 31, 53, 0.15);
+}
+
+/* Nombre del encuentro */
+#calendario .box.feature h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+/* Información de los partidos */
+#calendario .box.feature p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    color: #51636b;
+    line-height: 1.9;
+    margin: 0;
+}
+
+/* Etiquetas: fecha, hora, equipos y cancha */
+#calendario .box.feature strong {
+    color: #0b3440;
+}
+
+/* FECHAS DEL CALENDARIO */
+
+#calendario .fecha-partido {
+    display: inline-block;
+    background: #e8f7ef;
+    color: #0c8051;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-bottom: 1.5em;
+}
