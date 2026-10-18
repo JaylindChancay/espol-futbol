@@ -3105,3 +3105,344 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* POLIMATCH - ESTILOS PERSONALIZADOS */
+
+/* SECCIÓN DE BIENVENIDA */
+
+#banner {
+    background: linear-gradient(135deg, #081f35, #064e3b);
+    text-align: center;
+    padding: 4em 0;
+}
+
+#banner .content {
+    background: transparent;
+    padding: 3em 1.5em;
+}
+
+/* Título principal */
+#banner .content h2 {
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* Descripción de PoliMatch */
+#banner .content p {
+    font-family: 'Open Sans', sans-serif;
+    color: #e2f5ec;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.8;
+    text-transform: none;
+    letter-spacing: 0;
+    max-width: 800px;
+    margin: 1.5em auto;
+}
+
+/* BOTÓN PRINCIPAL */
+
+#banner .content .button {
+    background: #16a36a !important;
+    color: #ffffff;
+    border: 2px solid #16a36a;
+    border-radius: 10px;
+    padding: 0.8em 2em;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+#banner .content .button:hover {
+    background: #0c8051 !important;
+    border-color: #0c8051;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+#nav li.current a {
+    background: #0c8051;
+    color: #ffffff;
+}
+
+/* SECCIÓN PRINCIPAL */
+
+#main {
+    border-top: 8px solid #0c8051;
+}
+
+/* DISEÑO PARA CELULARES */
+
+@media screen and (max-width: 736px) {
+
+    #banner {
+        padding: 2em 0;
+    }
+
+    #banner .content h2 {
+        font-size: 1.8em;
+    }
+
+    #banner .content p {
+        font-size: 1em;
+    }
+}
+
+/* ==========================================
+   POLIMATCH - CALENDARIO DE PARTIDOS
+   ========================================== */
+
+/* Presentación general */
+#calendario {
+    padding: 2em 0;
+}
+
+/* Reducir el espacio debajo del título */
+#calendario > h2.major {
+    margin-bottom: 1.2em;
+}
+
+/* Descripción del calendario */
+#calendario > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+    font-size: 1em;
+}
+
+/* Aviso de partidos de ejemplo */
+#calendario > p strong {
+    color: #0c8051;
+}
+
+/* Organización de las tarjetas */
+#calendario > .row > div {
+    display: flex;
+}
+
+/* Diseño de cada tarjeta */
+#calendario .box.feature {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-top: 5px solid #0c8051;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+#calendario .box.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(8, 31, 53, 0.15);
+}
+
+/* Nombre del encuentro */
+#calendario .box.feature h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+/* Información de los partidos */
+#calendario .box.feature p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    color: #51636b;
+    line-height: 1.9;
+    margin: 0;
+}
+
+/* Etiquetas: fecha, hora, equipos y cancha */
+#calendario .box.feature strong {
+    color: #0b3440;
+}
+
+/* FECHAS DEL CALENDARIO */
+
+#calendario .fecha-partido {
+    display: inline-block;
+    background: #e8f7ef;
+    color: #0c8051;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-bottom: 1.5em;
+}
+
+/* POLIMATCH - PARTIDOS DISPONIBLES */
+
+/* Contenedor principal */
+#partidos {
+    padding: 2em 0;
+}
+
+/* Espacio debajo del título */
+#partidos > h2.major {
+    margin-bottom: 1.2em;
+}
+
+/* Descripción de la sección */
+#partidos .descripcion-partidos {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+    font-size: 1em;
+}
+
+/* Aviso de información demostrativa */
+#partidos .aviso-partidos {
+    text-align: center;
+    color: #0c8051;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+/* Distribución de las tarjetas */
+#partidos > .row > div {
+    display: flex;
+}
+
+/* Tarjeta de cada partido */
+#partidos .partido-disponible {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-left: 5px solid #16a36a;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+#partidos .partido-disponible:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(8, 31, 53, 0.15);
+}
+
+/* Título del partido */
+#partidos .partido-disponible h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+/* Información del encuentro */
+#partidos .partido-disponible p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    color: #51636b;
+    line-height: 2;
+    margin-bottom: 2em;
+    flex-grow: 1;
+}
+
+/* Resaltar los datos importantes */
+#partidos .partido-disponible strong {
+    color: #0b3440;
+}
+
+/* Estado de participación */
+#partidos .estado-partido {
+    display: block;
+    background: #e8f7ef;
+    color: #0c8051;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85em;
+    font-weight: 700;
+
+    text-align: center;
+
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+/* POLIMATCH - FILTROS DE PARTIDOS */
+
+/* Contenedor de los filtros */
+#partidos .filtros-partidos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 1.5em 0 2.5em;
+}
+
+/* Diseño de los botones */
+#partidos .filtros-partidos .filtro-btn {
+    background: #e8f7ef;
+    color: #0c8051;
+    border: 1px solid #cfe6d9;
+    border-radius: 25px;
+
+    padding: 12px 22px;
+    width: auto;
+    height: auto;
+    min-height: 44px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: none;
+    letter-spacing: 0;
+
+    cursor: pointer;
+    box-shadow: none;
+
+    transition: all 0.3s ease;
+}
+
+/* Botón seleccionado */
+#partidos .filtros-partidos .filtro-btn.activo {
+    background: #0c8051;
+    color: #ffffff;
+    border-color: #0c8051;
+}
+
+/* Efecto al pasar el mouse */
+#partidos .filtros-partidos .filtro-btn:hover {
+    background: #0c8051;
+    color: #ffffff;
+    border-color: #0c8051;
+    transform: translateY(-2px);
+}
+
+/* Accesibilidad al navegar con teclado */
+#partidos .filtros-partidos .filtro-btn:focus-visible {
+    outline: 3px solid #16a36a;
+    outline-offset: 3px;
+}
+
+/* Adaptación para celulares */
+@media screen and (max-width: 736px) {
+
+    #partidos .filtros-partidos {
+        gap: 10px;
+    }
+
+    #partidos .filtros-partidos .filtro-btn {
+        flex: 1 1 40%;
+        padding: 12px;
+        font-size: 0.85em;
+    }
+
+}
