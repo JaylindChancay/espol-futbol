@@ -1916,160 +1916,6 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-/* Contact */
-
-	ul.contact {
-		list-style: none;
-		padding-left: 0;
-		cursor: default;
-	}
-
-		ul.contact li {
-			-moz-transition: top .15s ease-in-out;
-			-webkit-transition: top .15s ease-in-out;
-			-ms-transition: top .15s ease-in-out;
-			transition: top .15s ease-in-out;
-			position: relative;
-			display: inline-block;
-			margin: 0 0.25em 0 0.25em;
-			top: 0;
-			padding-left: 0;
-		}
-
-			ul.contact li a {
-				-moz-transition: background-color .2s ease-in-out;
-				-webkit-transition: background-color .2s ease-in-out;
-				-ms-transition: background-color .2s ease-in-out;
-				transition: background-color .2s ease-in-out;
-				display: block;
-				position: relative;
-				width: 48px;
-				height: 48px;
-				border-radius: 6px;
-				outline: 0;
-				background: #c1cac5;
-				text-align: center;
-			}
-
-				ul.contact li a:before {
-					color: #f2f5f3;
-					font-size: 32px;
-					line-height: 48px;
-				}
-
-			ul.contact li:hover {
-				top: -5px;
-			}
-
-				ul.contact li:hover a.fa-facebook {
-					background-color: #3C5A98;
-				}
-
-				ul.contact li:hover a.fa-twitter {
-					background-color: #2DAAE4;
-				}
-
-				ul.contact li:hover a.fa-dribbble {
-					background-color: #C4376B;
-				}
-
-				ul.contact li:hover a.fa-linkedin {
-					background-color: #006599;
-				}
-
-				ul.contact li:hover a.fa-instagram {
-					background-color: #2E5E86;
-				}
-
-				ul.contact li:hover a.fa-google-plus {
-					background-color: #DA2713;
-				}
-
-			ul.contact li:active {
-				top: 0;
-			}
-
-/* Special */
-
-	ul.special {
-		list-style: none;
-		padding-left: 0;
-		cursor: default;
-		position: relative;
-		margin: -2em 0 4em -2em;
-	}
-
-		ul.special li {
-			-moz-transition: top .15s ease-in-out;
-			-webkit-transition: top .15s ease-in-out;
-			-ms-transition: top .15s ease-in-out;
-			transition: top .15s ease-in-out;
-			position: relative;
-			display: inline-block;
-			top: 0;
-			padding: 2em 0 0 2em;
-		}
-
-			ul.special li a {
-				display: block;
-				outline: 0;
-			}
-
-				ul.special li a:before {
-					-moz-transition: background-color .2s ease-in-out;
-					-webkit-transition: background-color .2s ease-in-out;
-					-ms-transition: background-color .2s ease-in-out;
-					transition: background-color .2s ease-in-out;
-					display: block;
-					text-align: center;
-					background: #c1cac5;
-					border-radius: 100%;
-					width: 2.25em;
-					height: 2.25em;
-					line-height: 2.175em;
-					font-size: 5em;
-					color: #fff;
-				}
-
-			ul.special li:hover {
-				top: -1em;
-			}
-
-				ul.special li:hover a:before {
-					background: #b9d2ce;
-				}
-
-/* Meta */
-
-	ul.meta {
-		font-size: 0.85em;
-		color: #a1aaa5;
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.meta li {
-			position: relative;
-			display: inline-block;
-			margin-left: 1em;
-			padding-left: 0;
-		}
-
-			ul.meta li a {
-				color: inherit;
-				outline: 0;
-			}
-
-			ul.meta li:first-child {
-				margin-left: 0;
-			}
-
-			ul.meta li:before {
-				opacity: 0.5;
-				cursor: default;
-				margin-right: 0.5em;
-			}
-
 /* Menu */
 
 	ul.menu {
@@ -2192,21 +2038,6 @@ input, select, textarea {
 			}
 
 /* Box */
-
-	.box.highlight {
-		text-align: center;
-	}
-
-		.box.highlight h2 {
-			font-size: 3em;
-			margin: 0 0 0.25em 0;
-		}
-
-		.box.highlight header > p {
-			font-size: 1.65em;
-			margin: 0 0 1.5em 0;
-		}
-
 	.box.feature {
 		text-align: center;
 	}
@@ -2633,14 +2464,6 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.highlight h2 {
-				font-size: 2.5em;
-			}
-
-			.box.highlight header > p {
-				font-size: 1.25em;
-			}
-
 			.box.post h3 {
 				font-size: 2.5em;
 			}
@@ -3020,15 +2843,6 @@ input, select, textarea {
 					}
 
 		/* Box */
-
-			.box.highlight h2 {
-				font-size: 2em;
-			}
-
-			.box.highlight header > p {
-				font-size: 1.25em;
-			}
-
 			.box.post h3 {
 				font-size: 2em;
 			}
@@ -3109,58 +2923,7 @@ input, select, textarea {
 
 /* POLIMATCH - ESTILOS PERSONALIZADOS */
 
-/* SECCIÓN DE BIENVENIDA */
-
-#banner {
-    background: linear-gradient(135deg, #081f35, #064e3b);
-    text-align: center;
-    padding: 4em 0;
-}
-
-#banner .content {
-    background: transparent;
-    padding: 3em 1.5em;
-}
-
-/* Título principal */
-#banner .content h2 {
-    color: #ffffff;
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.3;
-}
-
-/* Descripción de PoliMatch */
-#banner .content p {
-    font-family: 'Open Sans', sans-serif;
-    color: #e2f5ec;
-    font-size: 1.1em;
-    font-weight: 400;
-    line-height: 1.8;
-    text-transform: none;
-    letter-spacing: 0;
-    max-width: 800px;
-    margin: 1.5em auto;
-}
-
-/* BOTÓN PRINCIPAL */
-
-#banner .content .button {
-    background: #16a36a !important;
-    color: #ffffff;
-    border: 2px solid #16a36a;
-    border-radius: 10px;
-    padding: 0.8em 2em;
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-}
-
-#banner .content .button:hover {
-    background: #0c8051 !important;
-    border-color: #0c8051;
-    color: #ffffff;
-    transform: translateY(-3px);
-}
+/* Los estilos del banner están unificados más abajo. */
 
 /* MENÚ DE NAVEGACIÓN */
 
@@ -3173,23 +2936,6 @@ input, select, textarea {
 
 #main {
     border-top: 8px solid #0c8051;
-}
-
-/* DISEÑO PARA CELULARES */
-
-@media screen and (max-width: 736px) {
-
-    #banner {
-        padding: 2em 0;
-    }
-
-    #banner .content h2 {
-        font-size: 1.8em;
-    }
-
-    #banner .content p {
-        font-size: 1em;
-    }
 }
 
 /* ==========================================
@@ -3445,4 +3191,503 @@ input, select, textarea {
         font-size: 0.85em;
     }
 
+}
+
+/* ==========================================
+   POLIMATCH - NUEVO BANNER PRINCIPAL
+   ========================================== */
+
+/* Contenedor del banner */
+#banner {
+    padding: 0;
+    margin: 0;
+    background: #081f35;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Imagen principal de PoliMatch */
+#banner .imagen-banner-polimatch {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del botón */
+#banner .content {
+    background: linear-gradient(135deg, #081f35, #064e3b);
+    padding: 1.5em 1em;
+    text-align: center;
+}
+
+/* Botón Explorar PoliMatch */
+#banner .content .button {
+    display: inline-block;
+    background: #16a36a !important;
+    color: #ffffff;
+    border: 2px solid #16a36a;
+    border-radius: 10px;
+    padding: 0.8em 2em;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+#banner .content .button:hover {
+    background: #0c8051 !important;
+    border-color: #0c8051;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Adaptación para celulares */
+@media screen and (max-width: 736px) {
+
+    #banner {
+        padding: 0;
+    }
+
+    #banner .imagen-banner-polimatch {
+        width: 100%;
+        height: auto;
+    }
+
+    #banner .content {
+        padding: 1em;
+    }
+
+    #banner .content .button {
+        font-size: 0.95em;
+        padding: 0.7em 1.5em;
+    }
+}
+
+/* POLIMATCH - GALERÍA DEPORTIVA */
+
+/* Contenedor principal */
+#galeria {
+    text-align: center;
+    padding: 40px 30px;
+}
+
+/* Descripción de la galería */
+.descripcion-galeria {
+    max-width: 800px;
+    margin: 0 auto 35px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #536b60;
+}
+
+/* Organización de las tarjetas */
+.poli-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 30px 0;
+}
+
+/* Diseño de las tarjetas */
+.poli-tarjeta {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #e1e9e5;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.poli-tarjeta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Imágenes */
+.poli-tarjeta img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Descripciones */
+.poli-tarjeta figcaption {
+    padding: 20px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #536b60;
+    text-align: center;
+}
+
+/* Títulos de las tarjetas */
+.poli-tarjeta figcaption strong {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    color: #087c53;
+}
+
+/* Referencia de las imágenes */
+.fuente-galeria {
+    margin: 25px auto 0;
+    max-width: 800px;
+    font-size: 0.75rem;
+    font-style: italic;
+    line-height: 1.6;
+    color: #777777;
+}
+
+/* Adaptación para tablets */
+@media screen and (max-width: 980px) {
+
+    .poli-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Adaptación para celulares */
+@media screen and (max-width: 736px) {
+
+    #galeria {
+        padding: 25px 15px;
+    }
+
+    .poli-galeria {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .poli-tarjeta img {
+        height: 200px;
+    }
+
+}
+
+
+/* POLIMATCH - PARTIDO DESTACADO  */
+
+/* Contenedor principal */
+#partido-destacado {
+    background: linear-gradient(135deg, #092c47, #064e3b);
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin-bottom: 45px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Título principal */
+#partido-destacado h2.major {
+    border-top: none;
+    position: static;
+    margin: 0 0 25px;
+}
+
+/* Texto del título */
+#partido-destacado h2.major span {
+    position: static;
+    background: transparent;
+    color: #ffffff;
+    padding: 0;
+}
+
+/* Título del encuentro */
+#partido-destacado h3 {
+    color: #4adea0;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+/* Descripción */
+#partido-destacado p {
+    color: #e5f2ed;
+    max-width: 900px;
+    margin: 0 auto 25px;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Contenedor del video */
+#partido-destacado iframe {
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Referencia del video */
+#partido-destacado .fuente-video {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #c5d8d0;
+}
+
+/* Adaptación para celulares */
+@media screen and (max-width: 736px) {
+
+    #partido-destacado {
+        padding: 25px 15px;
+        border-radius: 12px;
+    }
+
+    #partido-destacado h3 {
+        font-size: 1.3rem;
+    }
+
+    #partido-destacado p {
+        font-size: 0.9rem;
+    }
+}
+
+/* POLIMATCH - PIE DE PÁGINA */
+
+/* Reducir espacios del footer */
+#footer {
+    padding: 3em 0 2em;
+}
+
+/* Organización de las secciones */
+#footer .row.gtr-200 {
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+#footer .row.gtr-200 > * {
+    padding: 30px 0 0 30px;
+}
+
+/* Tarjeta principal de PoliMatch */
+#footer #sobre-polimatch {
+    background: linear-gradient(135deg, #092c47, #064e3b);
+    border-radius: 22px;
+    padding: 45px 35px;
+    margin-bottom: 0;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Título Sobre PoliMatch */
+#footer #sobre-polimatch h2.major {
+    border-top: none;
+    position: static;
+    margin: 0 0 30px;
+}
+
+/* Color del título */
+#footer #sobre-polimatch h2.major span {
+    position: static;
+    background: transparent;
+    color: #ffffff;
+    padding: 0;
+}
+
+/* Organización del contenido */
+.poli-footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Mascota */
+.poli-footer-icono {
+    display: block;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+/* Nombre de la plataforma */
+.poli-footer-marca h3 {
+    font-size: 2.5rem;
+    color: #4adea0;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+
+/* Eslogan */
+#sobre-polimatch .poli-footer-lema {
+    color: #d4eee2;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Descripción */
+#sobre-polimatch .poli-footer-descripcion {
+    max-width: 800px;
+    margin: 15px auto;
+    color: #e5f2ed;
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+
+/* Nota académica */
+#sobre-polimatch .poli-footer-nota {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+
+    padding: 15px 20px;
+    margin: 15px 0 0;
+
+    color: #c5d8d0;
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width: 736px) {
+
+    #footer #sobre-polimatch {
+        padding: 30px 20px;
+        border-radius: 15px;
+    }
+
+    .poli-footer-marca h3 {
+        font-size: 2rem;
+    }
+
+    #sobre-polimatch .poli-footer-descripcion {
+        font-size: 0.9rem;
+    }
+
+    .poli-footer-icono {
+        font-size: 3rem;
+    }
+
+}
+
+
+/* POLIMATCH - TARJETAS DE GITHUB */
+
+/* Contenedor de la sección */
+.poli-github-seccion {
+    width: 100%;
+    max-width: 1000px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+/* Título de la sección */
+.poli-github-seccion h3 {
+    color: #4adea0;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: none;
+}
+
+/* Descripción */
+#footer .poli-github-seccion > p {
+    color: #d4eee2;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Organización de las tres tarjetas */
+.poli-github-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+/* Diseño de cada tarjeta */
+#footer .poli-github-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+
+    padding: 30px 20px;
+    min-height: 190px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+
+    transition: all 0.3s ease;
+}
+
+/* Ícono de GitHub */
+#footer .poli-github-card .icon {
+    display: block;
+    color: #4adea0;
+    font-size: 2.8rem;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+/* Nombre de cada tarjeta */
+#footer .poli-github-card h4 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    text-transform: none;
+}
+
+/* Texto secundario */
+#footer .poli-github-card span {
+    color: #c5d8d0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+/* Efecto al pasar el cursor */
+#footer a.poli-github-card:hover {
+    background: rgba(22, 163, 106, 0.22);
+    border-color: #4adea0;
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+/* DISEÑO RESPONSIVO */
+
+/* Tablets */
+@media screen and (max-width: 980px) {
+
+    .poli-github-tarjetas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Celulares */
+@media screen and (max-width: 736px) {
+
+    .poli-github-tarjetas {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    #footer .poli-github-card {
+        min-height: 160px;
+        padding: 25px 15px;
+    }
+
+    .poli-github-seccion h3 {
+        font-size: 1.4rem;
+    }
+
+}
+/* POLIMATCH - CORRECCIÓN DE INFORMACIÓN EN CELULARES */
+@media screen and (max-width: 980px) {
+    #calendario br,
+    #partidos br {
+        display: inline;
+    }
 }
