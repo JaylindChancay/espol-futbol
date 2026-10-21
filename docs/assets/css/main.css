@@ -4053,7 +4053,7 @@ input, select, textarea {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.95em;
     line-height: 1.8;
-    color: #e2f5ec;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -4081,6 +4081,108 @@ input, select, textarea {
 
     #asociaciones .asociacion-card,
     #asociaciones .anuncios-asociaciones {
+        padding: 1.5em 1.2em;
+    }
+}
+
+/* INFORMACION DE PARTICIPACION */
+
+#participacion {
+    padding: 2em 0;
+}
+
+#participacion > h2.major {
+    margin-bottom: 1.2em;
+}
+
+#participacion > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+}
+
+#participacion > p strong {
+    color: #0c8051;
+}
+
+/* Separación entre bloques */
+#participacion > .row + .row {
+    margin-top: 3em;
+}
+
+#participacion > .row > div {
+    display: flex;
+}
+
+/* Tarjetas */
+#participacion .participacion-card {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-top: 5px solid #0c8051;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+}
+
+#participacion .participacion-card h3,
+#participacion .recomendaciones-participacion h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+/* Listas alineadas a la izquierda, con viñeta junto al texto */
+#participacion ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.4em;
+    text-align: left;
+}
+
+#participacion li {
+    padding-left: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.9;
+    color: #51636b;
+    text-align: left;
+}
+
+#participacion li::marker {
+    color: #16a36a;
+}
+
+#participacion .participacion-card p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.9;
+    color: #51636b;
+    text-align: left;
+}
+
+#participacion .participacion-card strong {
+    color: #0c8051;
+}
+
+/* Recomendaciones */
+#participacion .recomendaciones-participacion {
+    background: #e8f7ef;
+    border: 1px solid #cfe6d9;
+    border-left: 5px solid #16a36a;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+}
+
+/* Celulares */
+@media screen and (max-width: 736px) {
+
+    #participacion .participacion-card,
+    #participacion .recomendaciones-participacion {
         padding: 1.5em 1.2em;
     }
 }
