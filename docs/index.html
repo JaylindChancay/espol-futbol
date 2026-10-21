@@ -361,6 +361,86 @@
 								</div>
 
 							</div>
+														<!-- Formulario de aviso general (demostrativo) -->
+							<div class="row">
+								<div class="col-12">
+									<section class="box feature">
+
+										<h3>Avísame cuando haya una prueba de selección</h3>
+
+										<p>
+											<strong>
+												PoliMatch no registra estudiantes
+												ni confirma cupos.
+											</strong>
+										</p>
+
+										<form id="form-avisos" action="#pruebas" method="get">
+											<div class="row gtr-uniform">
+
+												<div class="col-6 col-12-xsmall">
+													<label for="aviso-nombre">Nombre (opcional)</label>
+													<input type="text" id="aviso-nombre" name="nombre" placeholder="Ej: María Pérez" maxlength="60" />
+												</div>
+
+												<div class="col-6 col-12-xsmall">
+													<label for="aviso-correo">Correo electrónico</label>
+													<input type="email" id="aviso-correo" name="correo" placeholder="usuario@espol.edu.ec" required />
+												</div>
+
+												<div class="col-12">
+													<label for="aviso-carrera">Carrera (opcional)</label>
+													<input type="text" id="aviso-carrera" name="carrera" placeholder="Ej: Ingeniería en Computación" maxlength="80" />
+												</div>
+
+												<div class="col-12">
+													<fieldset>
+														<legend>¿Qué pruebas te interesan?</legend>
+
+														<input type="checkbox" id="rama-masculina" name="rama" value="masculina" />
+														<label for="rama-masculina">Masculinas</label>
+
+														<input type="checkbox" id="rama-femenina" name="rama" value="femenina" />
+														<label for="rama-femenina">Femeninas</label>
+
+														<input type="checkbox" id="rama-mixta" name="rama" value="mixta" />
+														<label for="rama-mixta">Mixtas</label>
+													</fieldset>
+												</div>
+
+												<div class="col-12">
+													<fieldset>
+														<legend>¿Con cuánta anticipación quieres el aviso?</legend>
+
+														<input type="radio" id="ant-1" name="anticipacion" value="1-dia" required />
+														<label for="ant-1">1 día antes</label>
+
+														<input type="radio" id="ant-3" name="anticipacion" value="3-dias" />
+														<label for="ant-3">3 días antes</label>
+
+														<input type="radio" id="ant-7" name="anticipacion" value="1-semana" />
+														<label for="ant-7">1 semana antes</label>
+													</fieldset>
+												</div>
+
+												<div class="col-12">
+													<input type="checkbox" id="aviso-acepto" name="acepto" required />
+													<label for="aviso-acepto">Entiendo que este formulario es demostrativo y que el aviso es solo informativo</label>
+												</div>
+
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Quiero recibir avisos" /></li>
+														<li><input type="reset" value="Limpiar" class="alt" /></li>
+													</ul>
+												</div>
+
+											</div>
+										</form>
+
+									</section>
+								</div>
+							</div>
 
 						</section>
 						<!-- ===== Fin Pruebas de selección ===== -->
