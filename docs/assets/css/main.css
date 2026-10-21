@@ -3446,3 +3446,743 @@ input, select, textarea {
     }
 
 }
+
+/* PRUEBAS DE SELECCIÓN */
+
+#pruebas {
+    padding: 2em 0;
+}
+
+#pruebas > h2.major {
+    margin-bottom: 1.2em;
+}
+
+#pruebas > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+}
+
+#pruebas > p strong {
+    color: #0c8051;
+}
+
+/* Separación entre las tarjetas y el formulario */
+#pruebas > .row + .row {
+    margin-top: 4em;
+}
+
+/* Tarjetas del mismo alto */
+#pruebas > .row > div {
+    display: flex;
+}
+
+/* Tarjeta de cada prueba */
+#pruebas .prueba-card {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-top: 5px solid #16a36a;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    overflow-wrap: break-word;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pruebas .prueba-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(8, 31, 53, 0.15);
+}
+
+#pruebas .prueba-card h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin: 0 0 1.2em;
+}
+
+/* Fecha en formato calendario */
+#pruebas .fecha-prueba {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90px;
+    margin-bottom: 1.2em;
+    background: #ffffff;
+    border: 2px solid #0c8051;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(12, 128, 81, 0.18);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pruebas .fecha-mes {
+    width: 100%;
+    background: #0c8051;
+    color: #ffffff;
+    font-size: 0.85em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#pruebas .fecha-dia {
+    color: #0b3440;
+    font-size: 2.4em;
+    font-weight: 800;
+    line-height: 1.1;
+    padding: 6px 12px 0;
+}
+
+#pruebas .fecha-anio {
+    color: #51636b;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0 12px 6px;
+}
+
+/* Datos de la prueba en cuadros */
+#pruebas .datos-prueba {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 0;
+    text-align: left;
+}
+
+#pruebas .datos-prueba > div {
+    background: #f7fbf9;
+    border: 1px solid #dbe6e2;
+    border-left: 4px solid #16a36a;
+    border-radius: 10px;
+    padding: 0.7em 1em;
+}
+
+#pruebas .datos-prueba .dato-ancho {
+    grid-column: 1 / -1;
+}
+
+#pruebas .datos-prueba dt {
+    color: #0c8051;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0 0 0.2em;
+}
+
+#pruebas .datos-prueba dd {
+    color: #0b3440;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Formulario de avisos */
+
+/* Tarjeta del formulario */
+#pruebas .form-aviso {
+    background: #f7fbf9;
+    border: 1px solid #cfe6d9;
+    border-left: 6px solid #0c8051;
+    border-radius: 14px;
+    padding: 2.5em 2em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+}
+
+#pruebas .form-aviso h3 {
+    color: #0b3440;
+    font-size: 1.5em;
+    margin-bottom: 0.6em;
+}
+
+#pruebas .form-aviso > p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2em;
+}
+
+#pruebas .form-aviso > p strong {
+    color: #0c8051;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+#pruebas #form-avisos {
+    text-align: left;
+}
+
+#pruebas #form-avisos label,
+#pruebas #form-avisos legend {
+    color: #0b3440;
+    text-align: left;
+}
+
+#pruebas #form-avisos fieldset {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-radius: 12px;
+    padding: 1em 1.5em;
+    margin: 0;
+}
+
+#pruebas #form-avisos legend {
+    font-weight: 700;
+    padding: 0 0.5em;
+}
+
+#pruebas #form-avisos input[type="text"],
+#pruebas #form-avisos input[type="email"] {
+    background: #ffffff;
+    border: 1px solid #cfe6d9;
+    border-radius: 10px;
+}
+
+#pruebas #form-avisos input[type="text"]:focus,
+#pruebas #form-avisos input[type="email"]:focus {
+    border-color: #16a36a;
+    box-shadow: 0 0 0 3px rgba(22, 163, 106, 0.2);
+}
+
+#pruebas #form-avisos input[type="submit"] {
+    background: #16a36a !important;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#pruebas #form-avisos input[type="submit"]:hover {
+    background: #0c8051 !important;
+    transform: translateY(-2px);
+}
+
+#pruebas #form-avisos input[type="reset"] {
+    color: #0c8051;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 2px #cfe6d9;
+}
+
+/* Celulares */
+@media screen and (max-width: 736px) {
+
+    #pruebas .datos-prueba {
+        grid-template-columns: 1fr;
+    }
+
+    #pruebas .prueba-card,
+    #pruebas .form-aviso {
+        padding: 1.5em 1.2em;
+    }
+}
+/* Formulario de avisos */
+
+#pruebas #form-avisos {
+    position: relative;
+}
+
+/* Se oculta la casilla nativa, pero sigue funcionando con teclado */
+#pruebas #form-avisos input[type="checkbox"],
+#pruebas #form-avisos input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+}
+
+/* Cada opción es un botón clickeable */
+#pruebas #form-avisos input[type="checkbox"] + label,
+#pruebas #form-avisos input[type="radio"] + label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7em;
+    margin: 0 12px 12px 0;
+    padding: 0.7em 1.3em;
+    background: #e8f7ef;
+    border: 2px solid #cfe6d9;
+    border-radius: 25px;
+    color: #0c8051;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: none;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+#pruebas #form-avisos input[type="checkbox"] + label:hover,
+#pruebas #form-avisos input[type="radio"] + label:hover {
+    border-color: #16a36a;
+    transform: translateY(-2px);
+}
+
+/* Indicador dentro del botón */
+#pruebas #form-avisos input[type="checkbox"] + label::before,
+#pruebas #form-avisos input[type="radio"] + label::before {
+    content: '';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.3em;
+    height: 1.3em;
+    background: #ffffff;
+    border: 2px solid #16a36a;
+    border-radius: 5px;
+    color: #0c8051;
+    font-size: 0.85em;
+    line-height: 1;
+}
+
+#pruebas #form-avisos input[type="radio"] + label::before {
+    border-radius: 50%;
+}
+
+/* Opción seleccionada: se queda pintada de verde */
+#pruebas #form-avisos input[type="checkbox"]:checked + label,
+#pruebas #form-avisos input[type="radio"]:checked + label {
+    background: #0c8051;
+    border-color: #0c8051;
+    color: #ffffff;
+}
+
+#pruebas #form-avisos input[type="checkbox"]:checked + label::before {
+    content: '\2713';
+    background: #ffffff;
+    border-color: #ffffff;
+    font-weight: 800;
+}
+
+#pruebas #form-avisos input[type="radio"]:checked + label::before {
+    background: #ffffff;
+    border-color: #ffffff;
+    box-shadow: inset 0 0 0 4px #0c8051;
+}
+
+/* Al navegar con teclado */
+#pruebas #form-avisos input[type="checkbox"]:focus-visible + label,
+#pruebas #form-avisos input[type="radio"]:focus-visible + label {
+    outline: 3px solid #16a36a;
+    outline-offset: 3px;
+}
+
+/* La aceptación ocupa todo el ancho y es rectangular */
+#pruebas #form-avisos #aviso-acepto + label {
+    display: flex;
+    border-radius: 12px;
+    margin-right: 0;
+}
+
+/* CANCHAS Y RESERVAS */
+
+#canchas {
+    padding: 2em 0;
+}
+
+#canchas > h2.major {
+    margin-bottom: 1.2em;
+}
+
+#canchas > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+}
+
+#canchas > p strong {
+    color: #0c8051;
+}
+
+/* Tarjetas del mismo alto */
+#canchas > .row > div {
+    display: flex;
+}
+
+/* Diseño de cada tarjeta */
+#canchas .box.feature {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-top: 5px solid #0c8051;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+}
+
+#canchas .box.feature h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+#canchas .box.feature p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    color: #51636b;
+    line-height: 1.9;
+}
+
+#canchas .box.feature strong {
+    color: #0c8051;
+}
+
+/* Mapa: se adapta al ancho de la tarjeta */
+#canchas .mapa-canchas {
+    margin: 0 0 1.2em;
+}
+
+#canchas .mapa-canchas iframe {
+    display: block;
+    width: 100%;
+    height: 350px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(8, 31, 53, 0.12);
+}
+
+#canchas .mapa-canchas figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85em;
+    color: #51636b;
+    margin-top: 0.8em;
+}
+
+/* Dirección */
+#canchas address {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.95em;
+    line-height: 1.7;
+    color: #0b3440;
+    background: #e8f7ef;
+    border-left: 4px solid #16a36a;
+    border-radius: 8px;
+    padding: 0.8em 1em;
+}
+
+/* Pasos numerados para solicitar la cancha */
+#canchas ol {
+    list-style: none;
+    counter-reset: paso;
+    margin: 0 0 1.5em;
+    padding: 0;
+    text-align: left;
+}
+
+#canchas ol li {
+    counter-increment: paso;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9em;
+    margin-bottom: 1em;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #51636b;
+}
+
+#canchas ol li::before {
+    content: counter(paso);
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    background: #0c8051;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+/* Nota importante */
+#canchas .box.feature ol + p {
+    background: #e8f7ef;
+    border-radius: 8px;
+    padding: 0.8em 1em;
+    margin: 0;
+    text-align: left;
+}
+
+/* Celulares */
+@media screen and (max-width: 736px) {
+
+    #canchas .box.feature {
+        padding: 1.5em 1.2em;
+    }
+
+    #canchas .mapa-canchas iframe {
+        height: 260px;
+    }
+}
+
+/* ASOCIACIONES DEPORTIVAS*/
+
+#asociaciones {
+    padding: 2em 0;
+}
+
+#asociaciones > h2.major {
+    margin-bottom: 1.2em;
+}
+
+#asociaciones > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+}
+
+#asociaciones > p strong {
+    color: #0c8051;
+}
+
+/* Separación entre las tarjetas y los anuncios */
+#asociaciones > .row + .row {
+    margin-top: 3.5em;
+}
+
+/* Tarjetas del mismo alto */
+#asociaciones > .row > div {
+    display: flex;
+}
+
+/* Tarjeta de cada asociación */
+#asociaciones .asociacion-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-left: 5px solid #16a36a;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#asociaciones .asociacion-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(8, 31, 53, 0.15);
+}
+
+#asociaciones .asociacion-card h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+#asociaciones .asociacion-card p {
+    flex-grow: 1;
+    margin: 0 0 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 2;
+    color: #51636b;
+    text-align: left;
+}
+
+#asociaciones .asociacion-card strong {
+    color: #0b3440;
+}
+
+/* Fecha del próximo partido como etiqueta */
+#asociaciones .asociacion-card time {
+    display: inline-block;
+    background: #e8f7ef;
+    color: #0c8051;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+
+/* Medio de contacto */
+#asociaciones .asociacion-card address {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.9em;
+    line-height: 1.7;
+    text-align: left;
+    color: #0c8051;
+    background: #f7fbf9;
+    border: 1px dashed #16a36a;
+    border-radius: 10px;
+    padding: 0.8em 1em;
+}
+
+#asociaciones .asociacion-card address strong {
+    color: #0b3440;
+}
+
+/* Bloque de anuncios */
+#asociaciones .anuncios-asociaciones {
+    background: #163e1b;
+    border-radius: 14px;
+    padding: 2em 1.8em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.15);
+}
+
+#asociaciones .anuncios-asociaciones h3 {
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+#asociaciones .anuncios-asociaciones ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.4em;
+    text-align: left;
+}
+
+#asociaciones .anuncios-asociaciones li {
+    margin-bottom: 0.9em;
+    padding-left: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: left;
+}
+
+#asociaciones .anuncios-asociaciones li::marker {
+    color: #16a36a;
+}
+
+#asociaciones .anuncios-asociaciones strong {
+    color: #ffffff;
+}
+
+#asociaciones .anuncios-asociaciones time {
+    display: inline-block;
+    margin-left: 0.4em;
+    background: #0c8051;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+/* Celulares */
+@media screen and (max-width: 736px) {
+
+    #asociaciones .asociacion-card,
+    #asociaciones .anuncios-asociaciones {
+        padding: 1.5em 1.2em;
+    }
+}
+
+/* INFORMACION DE PARTICIPACION */
+
+#participacion {
+    padding: 2em 0;
+}
+
+#participacion > h2.major {
+    margin-bottom: 1.2em;
+}
+
+#participacion > p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1em;
+}
+
+#participacion > p strong {
+    color: #0c8051;
+}
+
+/* Separación entre bloques */
+#participacion > .row + .row {
+    margin-top: 3em;
+}
+
+#participacion > .row > div {
+    display: flex;
+}
+
+/* Tarjetas */
+#participacion .participacion-card {
+    background: #ffffff;
+    border: 1px solid #dbe6e2;
+    border-top: 5px solid #0c8051;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(8, 31, 53, 0.09);
+}
+
+#participacion .participacion-card h3,
+#participacion .recomendaciones-participacion h3 {
+    color: #0b3440;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+/* Listas alineadas a la izquierda, con viñeta junto al texto */
+#participacion ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.4em;
+    text-align: left;
+}
+
+#participacion li {
+    padding-left: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.9;
+    color: #51636b;
+    text-align: left;
+}
+
+#participacion li::marker {
+    color: #16a36a;
+}
+
+#participacion .participacion-card p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.9;
+    color: #51636b;
+    text-align: left;
+}
+
+#participacion .participacion-card strong {
+    color: #0c8051;
+}
+
+/* Recomendaciones */
+#participacion .recomendaciones-participacion {
+    background: #e8f7ef;
+    border: 1px solid #cfe6d9;
+    border-left: 5px solid #16a36a;
+    border-radius: 14px;
+    padding: 2em 1.5em;
+    margin: 0;
+    width: 100%;
+}
+
+/* Celulares */
+@media screen and (max-width: 736px) {
+
+    #participacion .participacion-card,
+    #participacion .recomendaciones-participacion {
+        padding: 1.5em 1.2em;
+    }
+}

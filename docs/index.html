@@ -293,6 +293,459 @@
 							</div>
 
 						</section>
+												<!-- ===== Inicio Pruebas de selección ===== -->
+						<section id="pruebas" class="box features">
+
+							<h2 class="major">
+								<span>Pruebas de selección</span>
+							</h2>
+
+							<p>
+								Consulta las fechas, horarios y condiciones de las pruebas
+								de selección de las asociaciones deportivas de ESPOL.
+							</p>
+
+
+							<div class="row">
+
+								<!-- Prueba 1 -->
+								<div class="col-6 col-12-medium">
+									<article class="box feature prueba-card">
+
+										<time class="fecha-prueba" datetime="2026-11-05">
+											<span class="fecha-mes">NOV</span>
+											<span class="fecha-dia">5</span>
+											<span class="fecha-anio">2026</span>
+										</time>
+
+										<h3>Prueba de selección masculina</h3>
+
+										<dl class="datos-prueba">
+											<div>
+												<dt>Hora</dt>
+												<dd><time datetime="15:00">15:00</time></dd>
+											</div>
+											<div>
+												<dt>Cancha</dt>
+												<dd>Por confirmar</dd>
+											</div>
+											<div class="dato-ancho">
+												<dt>Asociación</dt>
+												<dd>Selección FIEC</dd>
+											</div>
+											<div class="dato-ancho">
+												<dt>Condiciones</dt>
+												<dd>Ser estudiante de ESPOL, pertenecer a FIEC y llevar ropa deportiva.</dd>
+											</div>
+										</dl>
+
+									</article>
+								</div>
+
+								<!-- Prueba 2 -->
+								<div class="col-6 col-12-medium">
+									<article class="box feature prueba-card">
+
+										<time class="fecha-prueba" datetime="2026-11-12">
+											<span class="fecha-mes">NOV</span>
+											<span class="fecha-dia">12</span>
+											<span class="fecha-anio">2026</span>
+										</time>
+
+										<h3>Prueba de selección femenina</h3>
+
+										<dl class="datos-prueba">
+											<div>
+												<dt>Hora</dt>
+												<dd><time datetime="16:30">16:30</time></dd>
+											</div>
+											<div>
+												<dt>Cancha</dt>
+												<dd>Por confirmar</dd>
+											</div>
+											<div class="dato-ancho">
+												<dt>Asociación</dt>
+												<dd>Selección ESPOL</dd>
+											</div>
+											<div class="dato-ancho">
+												<dt>Condiciones</dt>
+												<dd>Ser estudiante de ESPOL y llevar ropa deportiva.</dd>
+											</div>
+										</dl>
+
+									</article>
+								</div>
+
+							</div>
+
+							<!-- Formulario de aviso general (demostrativo) -->
+							<div class="row">
+								<div class="col-12">
+									<section class="box feature form-aviso">
+
+										<h3>Avísame cuando haya una prueba de selección</h3>
+
+										<p>
+											<strong>
+												PoliMatch no registra estudiantes
+												ni confirma cupos, y este formulario no envía información.
+											</strong>
+										</p>
+
+										<form id="form-avisos" action="#pruebas" method="get">
+											<div class="row gtr-uniform">
+
+												<div class="col-6 col-12-xsmall">
+													<label for="aviso-nombre">Nombre (opcional)</label>
+													<input type="text" id="aviso-nombre" name="nombre" placeholder="Ej: María Pérez" maxlength="60" />
+												</div>
+
+												<div class="col-6 col-12-xsmall">
+													<label for="aviso-correo">Correo electrónico</label>
+													<input type="email" id="aviso-correo" name="correo" placeholder="usuario@espol.edu.ec" required />
+												</div>
+
+												<div class="col-12">
+													<label for="aviso-carrera">Carrera (opcional)</label>
+													<input type="text" id="aviso-carrera" name="carrera" placeholder="Ej: Ingeniería en Computación" maxlength="80" />
+												</div>
+
+												<div class="col-12">
+													<fieldset>
+														<legend>¿Qué pruebas te interesan?</legend>
+
+														<input type="checkbox" id="rama-masculina" name="rama" value="masculina" />
+														<label for="rama-masculina">Masculinas</label>
+
+														<input type="checkbox" id="rama-femenina" name="rama" value="femenina" />
+														<label for="rama-femenina">Femeninas</label>
+
+														<input type="checkbox" id="rama-mixta" name="rama" value="mixta" />
+														<label for="rama-mixta">Mixtas</label>
+													</fieldset>
+												</div>
+
+												<div class="col-12">
+													<fieldset>
+														<legend>¿Con cuánta anticipación quieres el aviso?</legend>
+
+														<input type="radio" id="ant-1" name="anticipacion" value="1-dia" required />
+														<label for="ant-1">1 día antes</label>
+
+														<input type="radio" id="ant-3" name="anticipacion" value="3-dias" />
+														<label for="ant-3">3 días antes</label>
+
+														<input type="radio" id="ant-7" name="anticipacion" value="1-semana" />
+														<label for="ant-7">1 semana antes</label>
+													</fieldset>
+												</div>
+
+												<div class="col-12">
+													<input type="checkbox" id="aviso-acepto" name="acepto" required />
+													<label for="aviso-acepto">Entiendo que este formulario es demostrativo y que el aviso es solo informativo</label>
+												</div>
+
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Quiero recibir avisos" /></li>
+														<li><input type="reset" value="Limpiar" class="alt" /></li>
+													</ul>
+												</div>
+
+											</div>
+										</form>
+
+									</section>
+								</div>
+							</div>
+
+						</section>
+					
+						<!-- ===== Fin Pruebas de selección ===== -->
+
+						<!-- ===== Canchas y reservas ===== -->
+						<section id="canchas" class="box features">
+
+							<h2 class="major">
+								<span>Canchas y reservas</span>
+							</h2>
+
+							<p>
+								Conoce dónde se encuentran las canchas de fútbol de ESPOL
+								y cómo solicitar su uso.
+							</p>
+
+							<p>
+								<strong>
+									PoliMatch no gestiona reservas: solo te orienta
+									sobre el trámite con Bienestar Politécnico.
+								</strong>
+							</p>
+
+							<div class="row">
+
+								<!-- Ubicación y mapa -->
+								<div class="col-7 col-12-medium">
+									<section class="box feature">
+
+										<h3>Ubicación de las canchas</h3>
+
+										<figure class="mapa-canchas">
+											<!-- Mapa de las canchas -->
+												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.002320917972!2d-79.959009!3d-2.1527960999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7255d042adc3%3A0x826a2b9bdd94325b!2sCanchas%20de%20F%C3%BAtbol%20ESPOL!5e0!3m2!1ses!2sec!4v1792548541341!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa de las canchas de fútbol de ESPOL"></iframe>											<figcaption>
+												Mapa de ubicación de las canchas de fútbol en el campus de ESPOL.
+											</figcaption>
+										</figure>
+
+										<address>
+											Campus Gustavo Galindo, ESPOL<br>
+											Km 30.5 Vía Perimetral, Guayaquil
+										</address>
+
+									</section>
+								</div>
+
+								<!-- Cómo solicitar una cancha -->
+								<div class="col-5 col-12-medium">
+									<section class="box feature">
+
+										<h3>¿Cómo solicitar una cancha?</h3>
+
+										<ol>
+											<li>Define la fecha, el horario y el motivo del uso de la cancha.</li>
+											<li>Comunícate con Bienestar Politécnico para consultar el procedimiento vigente.</li>
+											<li>Espera la confirmación de Bienestar Politécnico antes de organizar el encuentro.</li>
+										</ol>
+
+										<p>
+											<strong>Importante:</strong> el proceso y los requisitos los define
+											Bienestar Politécnico; confirma siempre con ellos.
+										</p>
+
+									</section>
+								</div>
+
+							</div>
+
+						</section>
+						<!-- ===== Fin Canchas y reservas ===== -->
+
+						<!-- ===== Inicio Asociaciones deportivas ===== -->
+						<section id="asociaciones" class="box features">
+
+							<h2 class="major">
+								<span>Asociaciones deportivas</span>
+							</h2>
+
+							<p>
+								Conoce las asociaciones estudiantiles que organizan
+								partidos y pruebas de selección de fútbol en ESPOL.
+							</p>
+
+						
+
+							<div class="row">
+
+								<!-- Asociación 1 -->
+								<div class="col-4 col-12-medium">
+									<article class="box feature asociacion-card">
+
+										<h3>Selección FADCOM</h3>
+
+										<p>
+											<strong>Actividades:</strong> entrenamientos y partidos amistosos.
+											<br>
+											<strong>Próximo partido:</strong>
+											<time datetime="2026-11-05">5 de noviembre de 2026</time>
+										</p>
+
+										<address>
+											<strong>Contacto:</strong>
+											<br>
+											Instagram: @fadcom.espol
+										</address>
+
+									</article>
+								</div>
+
+								<!-- Asociación 2 -->
+								<div class="col-4 col-12-medium">
+									<article class="box feature asociacion-card">
+
+										<h3>Selección FIEC</h3>
+
+										<p>
+											<strong>Actividades:</strong> pruebas de selección y torneos internos.
+											<br>
+											<strong>Próximo partido:</strong>
+											<time datetime="2026-11-12">12 de noviembre de 2026</time>
+										</p>
+
+										<address>
+											<strong>Contacto:</strong>
+											<br>
+											Instagram: @fiec.espol
+										</address>
+
+									</article>
+								</div>
+
+								<!-- Asociación 3 -->
+								<div class="col-4 col-12-medium">
+									<article class="box feature asociacion-card">
+
+										<h3>Selección FCNM</h3>
+
+										<p>
+											<strong>Actividades:</strong> partidos recreativos abiertos a estudiantes.
+											<br>
+											<strong>Próximo partido:</strong> por confirmar
+										</p>
+
+										<address>
+											<strong>Contacto:</strong>
+											<br>
+											Instagram: @fcnm.espol
+										</address>
+
+									</article>
+								</div>
+
+							</div>
+
+							<!-- Anuncios de las asociaciones -->
+							<div class="row">
+								<div class="col-12">
+									<aside class="box feature anuncios-asociaciones">
+
+										<h3>Anuncios de las asociaciones</h3>
+
+										<ul>
+											<li>
+												<strong>Asociación de ejemplo A:</strong>
+												se anunciará la lista de horarios de entrenamiento del mes.
+												<time datetime="2026-10-28">28 de octubre de 2026</time>
+											</li>
+											<li>
+												<strong>Asociación de ejemplo B:</strong>
+												las pruebas de selección podrían cambiar de cancha; revisa el aviso antes de asistir.
+												<time datetime="2026-11-02">2 de noviembre de 2026</time>
+											</li>
+										</ul>
+
+									</aside>
+								</div>
+							</div>
+
+						</section>
+						<!-- ===== fin Asociaciones deportivas ===== -->
+
+						<!-- ===== Inicio Información de participación ===== -->
+						<section id="participacion" class="box features">
+
+							<h2 class="major">
+								<span>Información de participación</span>
+							</h2>
+
+							<p>
+								Aquí encontrarás las condiciones generales para participar
+								en los encuentros de fútbol de ESPOL.
+							</p>
+
+							<p>
+								<strong>
+									Los datos mostrados deben ser confirmados
+									por los organizadores de cada encuentro.
+								</strong>
+							</p>
+
+							<div class="row">
+
+								<!-- Requisitos -->
+								<div class="col-6 col-12-medium">
+									<article class="box feature participacion-card">
+
+										<h3>Requisitos</h3>
+
+										<ul>
+											<li>Ser estudiante de ESPOL.</li>
+											<li>Llevar ropa deportiva y calzado adecuado.</li>
+											<li>Llegar con anticipación al horario del encuentro.</li>
+											<li>Los organizadores podrían pedir algún requisito adicional.</li>
+										</ul>
+
+									</article>
+								</div>
+
+								<!-- Reglas -->
+								<div class="col-6 col-12-medium">
+									<article class="box feature participacion-card">
+
+										<h3>Reglas generales</h3>
+
+										<ul>
+											<li>Respetar a compañeros, rivales y árbitros.</li>
+											<li>Seguir las indicaciones de los organizadores.</li>
+											<li>Cuidar las instalaciones de la cancha.</li>
+											<li>Las reglas específicas las define cada asociación.</li>
+										</ul>
+
+									</article>
+								</div>
+
+								<!-- Tiempo de juego -->
+								<div class="col-6 col-12-medium">
+									<article class="box feature participacion-card">
+
+										<h3>Tiempo de juego</h3>
+
+										<p>
+											La duración de los partidos y la rotación de jugadores
+											pueden variar según el encuentro. Consulta este dato
+											con los organizadores antes de asistir.
+										</p>
+
+									</article>
+								</div>
+
+								<!-- Arbitraje -->
+								<div class="col-6 col-12-medium">
+									<article class="box feature participacion-card">
+
+										<h3>Contribuciones para arbitraje</h3>
+
+										<p>
+											Algunos encuentros podrían solicitar una contribución
+											para el arbitraje. Esto <strong>solo aplica si los
+											organizadores lo confirman</strong>, PoliMatch no
+											establece ni cobra ningún valor.
+										</p>
+
+									</article>
+								</div>
+
+							</div>
+
+							<!-- Recomendaciones -->
+							<div class="row">
+								<div class="col-12">
+									<aside class="box feature recomendaciones-participacion">
+
+										<h3>Recomendaciones</h3>
+
+										<ul>
+											<li>Revisa el calendario y los partidos disponibles antes de asistir.</li>
+											<li>Confirma horario y cancha con los organizadores.</li>
+											<li>Lleva agua y, si puedes, tu propia ropa deportiva.</li>
+										</ul>
+
+									</aside>
+								</div>
+							</div>
+
+						</section>
+						<!-- ===== fin Información de participación ===== -->
+
 						<div class="row gtr-200">
 							<div class="col-12">
 
