@@ -8,7 +8,7 @@
 	<head>
 		<title>PoliMatch | Fútbol en ESPOL</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="homepage is-preload">
@@ -23,9 +23,9 @@
 						</div>
 					</div>
 				</header>
-				 
+
 				<!-- Menú de navegación de PoliMatch -->
-				<nav id="nav">
+				<nav id="nav" aria-label="Navegación principal">
 					<ul>
 						<li class="current">
 							<a href="#banner">Inicio</a>
@@ -70,7 +70,6 @@
 					src="images/banner-polimatch.png"
 					alt="PoliMatch: tortuga futbolista y cancha de ESPOL"
 					class="imagen-banner-polimatch"
-					style="display: block; width: 100%; height: auto;"
 				>
 
 				<div class="content">
@@ -81,11 +80,11 @@
 
 			</section>
 
-			<!-- Main -->
+			<!-- Contenido principal -->
 				<section id="main">
 					<div class="container">
 
-						<!-- PARTIDO DESTACADO POLIMATCH -->
+						<!-- Partido destacado -->
 						<section id="partido-destacado" class="box features">
 
 							<h2 class="major">
@@ -103,12 +102,11 @@
 								de 2022.
 							</p>
 
-							<div style="max-width: 900px; margin: 0 auto;">
+							<div class="contenedor-video-destacado">
 
 								<iframe
-									src="https://www.youtube-nocookie.com/embed/2mr4YsLqYrg?start=55"
+									src="https://www.youtube.com/embed/2mr4YsLqYrg?playsinline=1"
 									title="Partido destacado: ULVR 0 - ESPOL 1"
-									style="width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 14px;"
 									loading="lazy"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 									referrerpolicy="strict-origin-when-cross-origin"
@@ -116,6 +114,16 @@
 								</iframe>
 
 							</div>
+
+							<!-- Enlace alternativo si YouTube no permite reproducir el video integrado -->
+							<a
+								href="https://www.youtube.com/watch?v=2mr4YsLqYrg&amp;t=55s"
+								class="enlace-video-alternativo"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Ver video directamente en YouTube
+							</a>
 
 							<p class="fuente-video">
 								Fuente: El Canal del Fútbol (2022).
@@ -217,7 +225,7 @@
 
 							</div>
 
-						</section>					
+						</section>
 
 						<section id="partidos" class="box features">
 
@@ -335,8 +343,8 @@
 							</div>
 
 						</section>
-						
-						<!-- ===== Inicio Pruebas de selección ===== -->
+
+						<!-- Inicio Pruebas de selección -->
 						<section id="pruebas" class="box features">
 
 							<h2 class="major">
@@ -347,7 +355,6 @@
 								Consulta las fechas, horarios y condiciones de las pruebas
 								de selección de las asociaciones deportivas de ESPOL.
 							</p>
-
 
 							<div class="row">
 
@@ -435,7 +442,7 @@
 											</strong>
 										</p>
 
-										<form id="form-avisos" action="#pruebas" method="get">
+										<form id="form-avisos">
 											<div class="row gtr-uniform">
 
 												<div class="col-6 col-12-xsmall">
@@ -496,6 +503,9 @@
 												</div>
 
 											</div>
+											<p id="mensaje-aviso-demo" role="status" aria-live="polite" hidden>
+												Este formulario es demostrativo. No se enviaron ni guardaron datos.
+											</p>
 										</form>
 
 									</section>
@@ -503,10 +513,10 @@
 							</div>
 
 						</section>
-					
-						<!-- ===== Fin Pruebas de selección ===== -->
 
-						<!-- ===== Canchas y reservas ===== -->
+						<!-- Fin Pruebas de selección -->
+
+						<!-- Canchas y reservas -->
 						<section id="canchas" class="box features">
 
 							<h2 class="major">
@@ -535,7 +545,17 @@
 
 										<figure class="mapa-canchas">
 											<!-- Mapa de las canchas -->
-												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.002320917972!2d-79.959009!3d-2.1527960999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7255d042adc3%3A0x826a2b9bdd94325b!2sCanchas%20de%20F%C3%BAtbol%20ESPOL!5e0!3m2!1ses!2sec!4v1792548541341!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa de las canchas de fútbol de ESPOL"></iframe>											<figcaption>
+												<iframe
+													src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.002320917972!2d-79.959009!3d-2.1527960999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7255d042adc3%3A0x826a2b9bdd94325b!2sCanchas%20de%20F%C3%BAtbol%20ESPOL!5e0!3m2!1ses!2sec!4v1792548541341!5m2!1ses!2sec"
+													width="600"
+													height="450"
+													style="border: 0;"
+													allowfullscreen
+													loading="lazy"
+													referrerpolicy="strict-origin-when-cross-origin"
+													title="Mapa de las canchas de fútbol de ESPOL"
+												></iframe>
+												<figcaption>
 												Mapa de ubicación de las canchas de fútbol en el campus de ESPOL.
 											</figcaption>
 										</figure>
@@ -571,9 +591,10 @@
 							</div>
 
 						</section>
-						<!-- ===== Fin Canchas y reservas ===== -->
 
-						<!-- ===== Inicio Asociaciones deportivas ===== -->
+						<!-- Fin Canchas y reservas -->
+
+						<!-- Inicio Asociaciones deportivas -->
 						<section id="asociaciones" class="box features">
 
 							<h2 class="major">
@@ -584,8 +605,6 @@
 								Conoce las asociaciones estudiantiles que organizan
 								partidos y pruebas de selección de fútbol en ESPOL.
 							</p>
-
-						
 
 							<div class="row">
 
@@ -681,9 +700,10 @@
 							</div>
 
 						</section>
-						<!-- ===== fin Asociaciones deportivas ===== -->
 
-						<!-- ===== Inicio Información de participación ===== -->
+						<!-- Fin Asociaciones deportivas -->
+
+						<!-- Inicio Información de participación -->
 						<section id="participacion" class="box features">
 
 							<h2 class="major">
@@ -787,12 +807,13 @@
 							</div>
 
 						</section>
-						<!-- ===== fin Información de participación ===== -->
+
+						<!-- Fin Información de participación -->
 
 						<div class="row gtr-200">
 							<div class="col-12">
 
-								<!-- GALERÍA DEPORTIVA POLIMATCH -->
+								<!-- Galería deportiva -->
 
 								<section id="galeria" class="box features">
 
@@ -868,8 +889,6 @@
 										de eventos o instalaciones reales de ESPOL.
 									</p>
 
-
-
 					</section> <!-- Fin de la galería -->
 
 					</div> <!-- Fin col-12 de galería -->
@@ -877,14 +896,13 @@
 			</div> <!-- Fin .container de main -->
 		</section> <!-- Fin #main -->
 
-
-			<!-- Footer -->
+			<!-- Pie de página -->
 				<footer id="footer">
 					<div class="container">
 						<div class="row gtr-200">
 							<div class="col-12">
 
-								<!-- About -->
+								<!-- Sobre PoliMatch -->
 
 								<section id="sobre-polimatch" class="poli-footer-info">
 
@@ -897,7 +915,7 @@
 										<!-- Identidad de PoliMatch -->
 										<div class="poli-footer-marca">
 
-											<span class="poli-footer-icono">🐢</span>
+											<span class="poli-footer-icono" aria-hidden="true">🐢</span>
 
 											<h3>
 												PoliMatch
@@ -924,7 +942,7 @@
 
 										</p>
 
-										<!-- Equipo de Desarrollo-->
+										<!-- Equipo de desarrollo -->
 
 										<div class="poli-github-seccion">
 
@@ -938,35 +956,35 @@
 
 											<div class="poli-github-tarjetas">
 
-												<!-- REPOSITORIO -->
+												<!-- Repositorio -->
 												<a
 													href="https://github.com/JaylindChancay/espol-futbol"
 													target="_blank"
 													rel="noopener noreferrer"
 													class="poli-github-card"
 												>
-													<i class="icon brands fa-github"></i>
+													<i class="icon brands fa-github" aria-hidden="true"></i>
 
 													<h4>Repositorio</h4>
 
 													<span>Explorar código fuente</span>
 												</a>
 
-												<!-- PERFIL JAYLIND -->
+												<!-- Perfil de Jaylind -->
 												<a
 													href="https://github.com/JaylindChancay"
 													target="_blank"
 													rel="noopener noreferrer"
 													class="poli-github-card"
 												>
-													<i class="icon brands fa-github"></i>
+													<i class="icon brands fa-github" aria-hidden="true"></i>
 
 													<h4>Jaylind Chancay</h4>
 
 													<span>Ver perfil de GitHub</span>
 												</a>
 
-												<!-- PERFIL DENISSE -->
+												<!-- Perfil de Denisse -->
 												<a
 													href="https://github.com/denissearias975-ai"
 													target="_blank"
@@ -974,7 +992,7 @@
 													class="poli-github-card"
 												>
 
-													<i class="icon brands fa-github"></i>
+													<i class="icon brands fa-github" aria-hidden="true"></i>
 
 													<h4>Denisse Arias</h4>
 
@@ -997,7 +1015,7 @@
 								</section>
 
 							</div>
-							
+
 						</div>
 
 						<!-- Copyright PoliMatch -->
@@ -1038,6 +1056,21 @@
 			<script src="assets/js/main.js"></script>
 			<!-- Filtros interactivos de PoliMatch -->
 			<script src="assets/js/filtros.js"></script>
+
+			<!-- Comportamiento del formulario demostrativo -->
+			<script>
+				const formularioAvisos = document.getElementById('form-avisos');
+				const mensajeAvisos = document.getElementById('mensaje-aviso-demo');
+
+				formularioAvisos.addEventListener('submit', function (event) {
+					event.preventDefault();
+					mensajeAvisos.hidden = false;
+				});
+
+				formularioAvisos.addEventListener('reset', function () {
+					mensajeAvisos.hidden = true;
+				});
+			</script>
 
 	</body>
 </html>
